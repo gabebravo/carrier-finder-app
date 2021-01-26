@@ -38,6 +38,7 @@ export default function CarrierList() {
     );
   }
 
+  // TODO : add spinner while fetching / error handling
   const CarriersAvailable = () =>
     carriers.length ? (
       <ul>
